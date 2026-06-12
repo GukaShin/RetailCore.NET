@@ -1,0 +1,59 @@
+## .NET / Visual Studio
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+.vscode/
+*.swp
+
+## Build results
+[Aa]rtifacts/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Rider
+.idea/
+*.sln.iml
+
+## Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+## EF Core
+*.db
+*.db-shm
+*.db-wal
+
+## Logs
+logs/
+*.log
+
+## Secrets / env
+.env
+*.env
+appsettings.*.local.json
+secrets.json
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Node (frontends, added in later phases)
+node_modules/
+dist/
+
+## Accidental duplicate scaffold (not part of this solution)
+RetailCore.NET/
